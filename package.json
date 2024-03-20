@@ -1,0 +1,27 @@
+{
+  "name": "stellar-storm-storage",
+  "version": "1.20.1",
+  "description": "A lightweight, promise-based key-value storage library for Node.js applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raymondemacchiarella/stellar-storm-storage"
+  },
+  "keywords": [
+    "storage",
+    "key-value",
+    "lightweight",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-localstorage": "^2.2.1",
+    "uuid": "^8.3.2",
+    "lodash.clonedeep": "^4.5.0",
+    "promise-polyfill": "8.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
